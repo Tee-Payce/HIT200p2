@@ -1,0 +1,57 @@
+.Login {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+
+}
+
+.LoginBox {
+
+    margin-top: 4rem;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(48, 46, 46);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.LoginHeader {
+    display: flex;
+    align-items: top;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25rem;
+
+}
+
+.input {
+    align-items: right;
+    justify-content: center;
+    display: list-item;
+    text-decoration: none;
+    color: #999;
+    border: 1px solid rgb(0, 4, 255);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 40%;
+}
+.input1{
+    margin-bottom: 29px ;
+    border-radius: 0px;
+}
+.input2::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #0d49b8;
+    display: block;
+    margin:auto;
+    transition: 1.5s;
+  }
+  .input2:hover::after{
+    width: 50%;
+  }
